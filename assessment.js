@@ -13,7 +13,8 @@ function removeAllChildren(element) {
     // 子どもの要素があるかぎり除去
     element.removeChild(element.firstChild);
   }
-}
+};
+
 userNameInput.onkeydown = event => {
   if (event.key === 'Enter') {
     assessmentButton.onclick();
